@@ -66,7 +66,7 @@
         estimated-budget: estimated-budget,
         revenue-projections: revenue-projections,
         risk-assessment: risk-assessment,
-        created-date: stacks-block-height,
+        created-date: block-height,
         status: "draft"
       }
     )
@@ -115,7 +115,7 @@
       { plan-id: plan-id, milestone-id: milestone-id }
       (merge milestone-data {
         completed: true,
-        completion-date: stacks-block-height
+        completion-date: block-height
       })
     )
 

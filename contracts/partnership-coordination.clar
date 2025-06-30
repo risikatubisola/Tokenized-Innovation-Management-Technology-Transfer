@@ -68,7 +68,7 @@
         terms: terms,
         revenue-split: revenue-split,
         duration-months: duration-months,
-        created-date: stacks-block-height,
+        created-date: block-height,
         status: "pending",
         coordinator-signed: true,
         partner-signed: false
